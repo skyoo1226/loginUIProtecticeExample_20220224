@@ -16,21 +16,21 @@ class MainActivity : AppCompatActivity() {
 
         btnLogin.setOnClickListener {
 
-            val id = admin
-            val password = qwer
+            val myId = "admin"
+            val myPassword = "qwer"
 
-            if (id == edtId && password == edtPassword) {
+            if (myId == edtId && myPassword == edtPassword) {
 
                 Toast.makeText(this,"관리자님 환영합니다.", Toast.LENGTH_SHORT). show()
 
             }
 
-            else if (id != edtId) {
+            else if (myId != edtId) {
 
                 Toast.makeText(this,"아이디가 틀립니다.", Toast.LENGTH_SHORT). show()
             }
 
-            else if (password != edtPassword) {
+            else if (myPassword != edtPassword) {
 
                 Toast.makeText(this,"비번이 잘못되었습니다.", Toast.LENGTH_SHORT). show()
             }
