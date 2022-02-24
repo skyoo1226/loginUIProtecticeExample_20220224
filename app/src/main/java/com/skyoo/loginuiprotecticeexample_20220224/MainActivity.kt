@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
 
         btnLogin.setOnClickListener {
 
-            val id = "admin"
-            val password = "qwer"
+            val id = admin
+            val password = qwer
 
             if (id == edtId && password == edtPassword) {
 
