@@ -3,6 +3,7 @@ package com.skyoo.loginuiprotecticeexample_20220224
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,13 +17,12 @@ class MainActivity : AppCompatActivity() {
             Log.d("메인화면","로그버튼 눌림")
 
         }
+        
+        btnToast.setOnClickListner{
 
+            Toast.makeText(this, "토스트 누르기", Toast.LENGTH_SHORT).show()
 
-
-
-
-
-
+        }
 
 
 
