@@ -25,12 +25,12 @@ class MainActivity : AppCompatActivity() {
 
             }
 
-            else if (password == edtPassword) {
+            else if (id != edtId) {
 
                 Toast.makeText(this,"아이디가 틀립니다.", Toast.LENGTH_SHORT). show()
             }
 
-            else if (id == edtId) {
+            else if (password != edtPassword) {
 
                 Toast.makeText(this,"비번이 잘못되었습니다.", Toast.LENGTH_SHORT). show()
             }
