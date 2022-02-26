@@ -37,6 +37,8 @@
         android:inputType="textPassword"
         android:hint="비밀번호 입력" />
 
+
+<!--
     <LinearLayout
         android:layout_width="359dp"
         android:layout_height="wrap_content"
@@ -53,9 +55,12 @@
             android:textSize="20sp" />
 
     </LinearLayout>
+-->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인" />
 
 
-
-
-
-</LinearLayout>
+<LinearLayout>
