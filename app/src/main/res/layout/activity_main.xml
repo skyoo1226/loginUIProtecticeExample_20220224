@@ -20,7 +20,7 @@
         android:id="@+id/edtId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:hint="영문자" />
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_marginTop="10dp" />
 
     <EditText
-        android:id="@+id/edtPw"
+        android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
