@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         btnLogin.setOnClickListener {
 
             val inputID = edtId.text.toString()
-            val inputPw = edtId.text.toString()
+            val inputPw = edtPassword.text.toString()
 
             if (inputID == "admin" && inputPw == "qwer") {
                 Toast.makeText(this, "관리자님 환영합니다.", Toast.LENGTH_SHORT).show()
